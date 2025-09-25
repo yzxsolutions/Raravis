@@ -24,12 +24,13 @@ export default function SplashScreen() {
   return (
     <div className="splash-screen">
       <div className="splash-content flex flex-col items-center justify-around min-h-screen">
-        <Image
-          src="/images/splash-illustration.png"
-          alt="Globe icon"
-          width={400}
-          height={400}
-        />
+      <img
+  src="/cooking.gif"
+  alt="Globe icon"
+  width={400}
+  height={400}
+  className="rounded-lg"
+/>
 
         <div className="loading-container pb-8 flex items-center flex-col">
           <p className="loading-text text-black">Loading Your Menu</p>
